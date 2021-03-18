@@ -2,14 +2,6 @@
 
 Simple docker file for https://github.com/Evolveum/midscribe (permit to create HTML / ADOC documentation of midpont xml file).
 
-## Build it ##
-
-```shell
-git clone 
-cd docker-midscribe
-docker build . -t docker-midscribe
-```
-
 ## Run it from dockerHub ##
 
 You need to mount your configuration folder under docker container. For this exemple, we use in /home/user/my_configuration_midpoint folder.
