@@ -1,7 +1,7 @@
 FROM alpine:3.13.2
 
 ENV midscribe_url https://github.com/Evolveum/midscribe
-ENV version 6d1fe974391db31c32a37c2b44aa141b14c49c44
+ENV version master
 
 RUN apk add --no-cache maven openjdk11 git
 
